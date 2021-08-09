@@ -1,4 +1,4 @@
-package Introduction
+package introduction
 
 /**********************************************************************************************
  * Default arguments

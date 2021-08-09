@@ -1,4 +1,4 @@
-package Introduction
+package introduction
 
 /**********************************************************************************************
  * Triple-quoted strings
