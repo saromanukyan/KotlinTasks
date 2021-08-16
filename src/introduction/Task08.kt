@@ -9,4 +9,8 @@ package introduction
  ***********************************************************************************************/
 
 fun containsEven(collection: Collection<Int>): Boolean =
-    collection.any { it%2==0 }
+    collection.any { it % 2 == 0 }
+fun main() {
+    println(containsEven(listOf(5,4,87,55,91,100)))  // true
+    println(containsEven(listOf(5,7,9,11,55)))  // false
+}

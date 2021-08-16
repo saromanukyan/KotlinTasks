@@ -10,6 +10,6 @@ package introduction
 fun joinOptions(options: Collection<String>) =
     options.joinToString(prefix = "[",postfix = "]")
 fun main() {
-    val list= listOf<String>("a","b","c","d")
+    val list= listOf("a","b","c","d")
     println(joinOptions(list))
 }

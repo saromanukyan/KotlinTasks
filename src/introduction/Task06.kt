@@ -23,12 +23,12 @@ package introduction
  ***********************************************************************************************/
 
 fun sendMessageToClient(
-    client: Client?, message: String?, mailer: Mailer
+    client: Client?, message: String?, mailer: Mailer,
 ) {
     if (client != null) {
         client.personalInfo?.email?.let {
             if (message != null) {
-                mailer.sendMessage(email = it,message = message )
+                mailer.sendMessage(email = it, message = message)
             }
         }
     }

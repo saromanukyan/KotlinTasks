@@ -3,8 +3,7 @@ package introduction
 /**********************************************************************************************
  * Triple-quoted strings
  *
- * Replace the trimIndent call with the trimMargin call
- * taking # as the prefix value,
+ * Replace the trimIndent call with the trimMargin call taking # as the prefix value,
  * so that the resulting string doesn't contain the prefix character.
  ***********************************************************************************************/
 

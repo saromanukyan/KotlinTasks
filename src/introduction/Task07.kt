@@ -20,6 +20,6 @@ fun checkAge(age: Int?) {
 }
 
 fun main() {
-    checkAge(18)
-    checkAge(-52)
+    checkAge(18)  // Congrats! Next year you'll be 19.
+    checkAge(-52)  // IllegalArgumentException: Wrong age: -52
 }

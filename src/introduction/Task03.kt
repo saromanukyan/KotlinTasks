@@ -23,9 +23,9 @@ package introduction
  * Use default and named arguments.
  ***********************************************************************************************/
 
-fun foo(name: String="", number: Int=42, toUpperCase: Boolean=false) =
+fun foo(name: String = "", number: Int = 42, toUpperCase: Boolean = false) =
     (if (toUpperCase) name.toUpperCase() else name) + number
-  //  (if (toUpperCase) name.uppercase(Locale.getDefault()) else name) + number
+//  (if (toUpperCase) name.uppercase(Locale.getDefault()) else name) + number
 
 fun useFoo() = listOf(
     foo("a"),
@@ -33,6 +33,7 @@ fun useFoo() = listOf(
     foo("c", toUpperCase = true),
     foo(name = "d", number = 2, toUpperCase = true)
 )
+
 fun main() {
     println(useFoo())
 }

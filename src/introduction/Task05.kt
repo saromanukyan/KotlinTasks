@@ -14,3 +14,9 @@ package introduction
 val month = "(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)"
 
 fun getPattern(): String = """\d{2} $month \d{4}"""
+fun main() {
+    println("11 MAR 1954".matches(getPattern().toRegex())) // true
+    println("11:MAR:1954".matches(getPattern().toRegex())) // false
+}
+
+
