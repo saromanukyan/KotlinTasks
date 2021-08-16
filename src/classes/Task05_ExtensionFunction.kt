@@ -19,6 +19,6 @@ fun Pair<Int, Int>.r(): RationalNumber = RationalNumber(first, second)
 data class RationalNumber(val numerator: Int, val denominator: Int)
 
 fun main() {
-    println(10.r()) // RationalNumber(numerator=10, denominator=1)
+    println(10.r())  // RationalNumber(numerator=10, denominator=1)
     println(Pair(15, 22).r()) // RationalNumber(numerator=15, denominator=22)
 }
